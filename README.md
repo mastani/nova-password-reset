@@ -9,7 +9,7 @@ This is a package for [Laravel Nova](https://nova.laravel.com/) which allows you
 
 ## Screeenshots
 
-![Laravel Nova Password Reset](/screenshot.jpg?raw=true "Optional Title")
+![Laravel Nova Password Reset](https://raw.githubusercontent.com/mastani/nova-password-reset/master/screenshot.jpg "Laravel Nova Password Reset")
 
 ## Requirements
 
