@@ -75,8 +75,6 @@
 </template>
 
 <script>
-    import axios from 'axios'
-
     export default {
         data() {
             return {
@@ -119,7 +117,7 @@
                 if (this.errors.length > 0)
                     return;
 
-                axios.post('/nova-vendor/nova-password-reset/reset-password', _.tap(new FormData(), formData => {
+                Nova.request().post('/nova-vendor/nova-password-reset/reset-password', _.tap(new FormData(), formData => {
                     formData.append('current_password', this.current_password)
                     formData.append('new_password', this.new_password)
                     formData.append('confirm_new_password', this.confirm_new_password)
