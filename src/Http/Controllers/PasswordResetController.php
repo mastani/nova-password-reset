@@ -2,7 +2,7 @@
 
 namespace Mastani\NovaPasswordReset\Http\Controllers;
 
-use App\Http\Controllers\Controller;
+use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Hash;
 use Mastani\NovaPasswordReset\Http\Requests\PasswordResetRequest;
 
