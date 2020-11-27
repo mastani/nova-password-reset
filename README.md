@@ -23,7 +23,7 @@ Install the package via composer:
 $ composer require mastani/nova-password-reset
 ```
 
-Publish the migration:
+Publish the view:
 ```
 php artisan vendor:publish --force --provider=Mastani\NovaPasswordReset\ToolServiceProvider
 ```
