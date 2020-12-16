@@ -1,0 +1,14 @@
+{
+  "Reset My Password": "Reset My Password",
+  "Current password": "Current password",
+  "New password": "New password",
+  "Confirm password": "Confirm Password",
+  "Save Password": "Save Password",
+  "Please correct the following error(s):": "Please correct the following error(s):",
+  "novaPasswordReset.oldPasswordRequired": "Old password required.",
+  "novaPasswordReset.newPasswordRequired": "New password required.",
+  "novaPasswordReset.newPasswordSize": "New password must be greater than or equal :minpass characters.",
+  "novaPasswordReset.confirmPasswordRequired": "New password confirmation required.",
+  "novaPasswordReset.confirmPasswordSize": "New password confirmation must be greater than or equal :minpass characters.",
+  "novaPasswordReset.success": "Password updated successfully."
+}

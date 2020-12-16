@@ -15,4 +15,8 @@ class PasswordResetController extends Controller {
 
         return 'Successful.';
     }
+
+    public function getMinPasswordSize() {
+      return response(["minpassw" => config('nova-password-reset.min_password_size',5)]);
+    }
 }

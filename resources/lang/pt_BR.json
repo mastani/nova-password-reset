@@ -1,0 +1,14 @@
+{
+  "Reset My Password": "Alterar Minha Senha",
+  "Current password": "Senha atual",
+  "New password": "Nova Senha",
+  "Confirm password": "Confirme a nova senha",
+  "Save Password": "Salvar Senha",
+  "Please correct the following error(s):": "Por favor, corrija o(s) seguinte(s) erro(s):",
+  "novaPasswordReset.oldPasswordRequired": "A senha antiga é obrigatória.",
+  "novaPasswordReset.newPasswordRequired": "A nova senha é obrigatória.",
+  "novaPasswordReset.newPasswordSize": "A nova senha tem que ter tamanho maior que :minpass caracteres.",
+  "novaPasswordReset.confirmPasswordRequired": "A confirmação da senha é obrigatória.",
+  "novaPasswordReset.confirmPasswordSize": "A confirmação da nova senha tem que ter tamanho maior que :minpass caracteres.",
+  "novaPasswordReset.success": "A senha foi atualizada com sucesso!"
+}

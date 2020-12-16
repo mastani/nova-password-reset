@@ -14,6 +14,8 @@
         "laravel-mix": "^1.0"
     },
     "dependencies": {
-        "vue": "^2.5.0"
+        "imagemin-pngquant": "^5.0.1",
+        "vue": "^2.5.0",
+        "vue-simple-password-meter": "0.0.22"
     }
 }
