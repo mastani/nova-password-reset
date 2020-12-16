@@ -23,9 +23,9 @@ Install the package via composer:
 $ composer require mastani/nova-password-reset
 ```
 
-Publish the view:
+Publish the view (Will overwrite 'user.blade.php' which is provided by nova):
 ```
-php artisan vendor:publish --force --provider=Mastani\NovaPasswordReset\ToolServiceProvider
+php artisan vendor:publish --force --provider="Mastani\NovaPasswordReset\ToolServiceProvider" --tag="nova-views"
 ```
 
 Register the tool in the `tools` method of the `NovaServiceProvider`:
@@ -42,6 +42,28 @@ public function tools()
     ];
 }
 ```
+
+## Customizations (Optional)
+
+If you want to specify the min length of password you can publish the config file:
+```
+php artisan vendor:publish --provider="Mastani\NovaPasswordReset\ToolServiceProvider" --tag="config"
+```
+
+Now head over to "config/nova-password-reset.php" and you can change the value:
+```
+'min_password_size' => 5
+```
+___
+You can also use English or Portuguese language or add your own translation:
+```
+php artisan vendor:publish --provider="Mastani\NovaPasswordReset\ToolServiceProvider" --tag="translations"
+```
+
+## Contributors
+[Amin Mastani](https://github.com/mastani)
+
+[Newton Evangelista](https://github.com/newtongamajr)
 
 ## License
 
