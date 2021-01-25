@@ -13,4 +13,17 @@ return [
 
     'min_password_size' => 5,
 
+    /*
+    |--------------------------------------------------------------------------
+    | Custom Password Rule
+    |--------------------------------------------------------------------------
+    |
+    | Determine a custom password rule to be used
+    | Any of the laravel existing validations can be used or your custom one
+    | Default is `string`.
+    |
+    */
+
+    'custom_password_rule' => 'string'
+
 ];
