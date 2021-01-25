@@ -25,7 +25,7 @@ class PasswordResetRequest extends FormRequest {
         return [
             'current_password' => 'required|password',
             'new_password' => "required|$customPasswordRule|min:$minPasswordSize",
-            'confirm_new_password' => "required|$customPasswordRule|min:$minPasswordSize|same:new_password"
+            'confirm_new_password' => "required|same:new_password"
         ];
     }
 }
