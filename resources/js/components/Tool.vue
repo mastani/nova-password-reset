@@ -92,6 +92,11 @@
         mounted() {
             this.getPasswordSize()
         },
+        metaInfo() {
+    	    return {
+            title: this.__('Reset My Password')
+            }
+        },
         methods: {
             getPasswordSize: function () {
                 Nova.request().get('/nova-vendor/nova-password-reset/min-password-size').then(response => {
